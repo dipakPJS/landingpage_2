@@ -1,0 +1,112 @@
+ * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+
+ ::-webkit-scrollbar {
+    display: none;
+ }
+
+ body {
+
+    background: url("img/blur_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+ .navbar {
+    background-color: #1e272e;
+
+ }
+
+ .navbar a {
+    color: rgb(255, 234, 0);
+    font-size: 20px;
+
+ }
+
+ .logo {
+    height: 100px;
+    width: auto;
+ }
+
+ .header {
+    text-align: center;
+    padding: 50px;
+    color: white;
+ }
+
+ .header h2 {
+    font-size: 50px;
+ }
+
+ .header p {
+    font-size: 20px;
+    font-weight: 600;
+ }
+
+ .form-section {
+    height: 80vh;
+    width: 80%;
+    margin: 100px auto;
+
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+
+
+ }
+ 
+
+ .main-form {
+    
+text-align: center;
+padding: 10%;
+
+     
+ }
+
+
+ 
+
+
+ label {
+    margin-bottom: 10px;
+ }
+
+ label input, select {
+    height: 70px;
+    width: 100%;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border: 3px solid yellow;
+    border-radius: 15px;
+    
+
+    outline: none;
+    padding: 0 10px;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 900;
+
+
+ }
+
+ select option{
+   color: black;
+ }
+
+ .btn{
+   font-size: 25px;
+   font-weight: 900;
+   margin-top: 50px;
+   
+ }
